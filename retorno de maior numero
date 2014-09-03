@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+int verf(int x,int y){
+
+    if (x>y){
+        return(x);
+    }
+    else{
+        return (y);
+    }
+}
+int main()
+{
+    int x,y,re;
+    printf("digite o 1o: ");
+    scanf("%d",&x);
+    printf("digite o 2o: ");
+    scanf("%d",&y);
+    re=verf(x,y);
+    printf("o maior valor é :%d",re);
+    return 0;
+}
