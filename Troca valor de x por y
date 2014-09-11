@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+int x,y;
+void troca(int *a,int *z)
+{
+    int aux1;
+    aux1=*a;
+    *a=*z;
+    *z=aux1;
+}
+
+int main()
+{
+    printf("Hello world!\nx: ");
+    scanf("%d",&x);
+    printf("y: ");
+    scanf("%d",&y);
+    troca (&x,&y);
+    printf("x: %d        y: %d",x,y);
+    return 0;
+}
