@@ -1,0 +1,27 @@
+/* retorna o maior numero na primeira variavel (x) e o  menor na (y)*/
+#include <stdio.h>
+#include <stdlib.h>
+int x,y,aux;
+void maior(int *x,int *y)
+{
+    if (*x<*y)
+    {
+        aux= *x;
+        *x=*y;
+        *y=aux;
+    }
+}
+
+
+
+int main()
+{
+    printf("Hello world!\nx: ");
+    scanf("%d",&x);
+    printf("y: ");
+    scanf("%d",&y);
+    maior(&x,&y);
+    printf("x: %d  e   y: %d",x,y);
+
+    return 0;
+}
