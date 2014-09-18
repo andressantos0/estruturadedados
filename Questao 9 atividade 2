@@ -1,0 +1,1 @@
+*p aponta para o valor de x, o **pp é um ponteiro que aponta para o ponteiro *p que aponta tambem para x, quando fazemos p=&x fazemos p apontar para x, e quando fazemos pp=&p fazemos o ponteiro apontar para o ponteiro p que por sua vez aponta para x, logo quando imprimimos na tela o valor de pp, sairá pp= 100.
