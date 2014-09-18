@@ -1,0 +1,2 @@
+v+3= 55000 + 3*8= 55024.
+pois v+3 é uma soma do valor do endereço de v(que neste caso seria 55000) e como cada int ocupa 8bits (logo 8*3).
