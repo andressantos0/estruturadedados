@@ -1,0 +1,1 @@
+a diferença é que v[3] é o numero na posicao 3 do vetor (v), e v+3 seria o endereço na memoria +3(no caso mutiplicado pela quantidade de bits pela qual cada inteiro ocupa(ex 8bits = 3*8=24+(v)).
