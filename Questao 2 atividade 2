@@ -1,0 +1,31 @@
+a)
+
+void main() {
+int x, *p;
+x = 100;
+p = &x; //p deveria apontar para o endereço de x
+printf(“Valor de p: %d.\n”, *p);
+}
+
+
+b)
+
+
+void troca (int *i, int *j) { 
+ int temp; 
+ temp = *i; 
+ *i = *j; 
+ *j = temp; 
+ }
+ 
+ 
+ c)
+ 
+  char a[] = "abacate";
+  char b[] = "uva"; 
+ if (a[0] < b[0]) { 
+ printf ("%s vem antes de %s no dicionário", a, b); 
+ } 
+ else { 
+ printf ("%s vem depois de %s no dicionário", a, b); 
+ } 
